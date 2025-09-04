@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": "0zznCpv_aRMNtpUS8W7kr",
+      "username": "admin.master",
+      "email": "admin@master.com",
+      "password": "123",
+      "isAdmin": true
+    },
+    {
+      "id": "ziB0rfKvbW3sMjdm2GfpH",
+      "username": "lakshay.gupta",
+      "email": "lakshay@gmail.com",
+      "password": "1234",
+      "isAdmin": false
+    }
+  ],
+  "products": [
+    {
+      "id": "xo7mK6l6ZRpdKltgaMN3d",
+      "image": "https://imgs.search.brave.com/ShmuPxqGGKTssDDLhbXiseqeTMnsdIF9MkyVyOpqsBI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzdmL2Qy/LzM2LzdmZDIzNjE1/YTA5YzYzN2E1NjI5/OGM0YWY2MTE2YTZk/LmpwZw",
+      "title": "Apple iPhone 14 Pro Max fax",
+      "price": "1200",
+      "description": "Latest iPhone with A16 Bionic chip, ProMotion display, and advanced camera system desgin",
+      "category": "electronics"
+    }
+  ],
+  "carts": []
+}
