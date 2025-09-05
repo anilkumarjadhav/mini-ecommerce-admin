@@ -6,13 +6,6 @@
       "email": "admin@master.com",
       "password": "321",
       "isAdmin": true
-    },
-    {
-      "id": "ziB0rfKvbW3sMjdm2GfpH",
-      "username": "lakshay.gupta",
-      "email": "lakshay@gmail.com",
-      "password": "1234",
-      "isAdmin": false
     }
   ],
   "products": [
