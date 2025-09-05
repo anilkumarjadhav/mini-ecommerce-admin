@@ -4,7 +4,7 @@
       "id": "0zznCpv_aRMNtpUS8W7kr",
       "username": "admin.master",
       "email": "admin@master.com",
-      "password": "123",
+      "password": "321",
       "isAdmin": true
     },
     {
@@ -22,6 +22,14 @@
       "title": "Apple iPhone 14 Pro Max fax",
       "price": "1200",
       "description": "Latest iPhone with A16 Bionic chip, ProMotion display, and advanced camera system desgin",
+      "category": "electronics"
+    },
+    {
+      "id": "TZoLOnmsFTmUuwD-PmrTu",
+      "image": "https://cdn.dummyjson.com/recipe-images/1.webp",
+      "title": "qqq",
+      "price": "1",
+      "description": "wd",
       "category": "electronics"
     }
   ],

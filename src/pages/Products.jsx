@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 const Products = () => {
   const products = useSelector((state) => state.productReducer.products);
-  console.log(products);
 
   const renderProducts = products.map((product) => {
     return (
@@ -19,7 +18,12 @@ const Products = () => {
           <p>{product.price}</p>
           <button>Add to Cart</button>
         </div>
-        <Link className="w-full text-center block" to={`/product/${product.id}`}>More Info</Link>
+        <Link
+          className="w-full text-center block"
+          to={`/product/${product.id}`}
+        >
+          More Info
+        </Link>
       </div>
     );
   });

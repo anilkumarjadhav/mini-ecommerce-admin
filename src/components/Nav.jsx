@@ -1,24 +1,22 @@
-import { useDispatch, useSelector } from "react-redux";
-import { NavLink, useNavigate } from "react-router-dom";
-import { asyncLogoutUser } from "../store/actions/userActions";
+import { useSelector } from "react-redux";
+import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   const user = useSelector((state) => state.userReducer.users);
-  const dispatch = useDispatch();
-  const navigate = useNavigate();
-  const logoutHandler = () => {
+
+  /*  const logoutHandler = () => {
     dispatch(asyncLogoutUser());
     navigate("/login");
-  };
+  }; */
   return (
     <nav className="flex justify-center items-center gap-x-5 p-4 mb-10">
       <NavLink to="/">Home</NavLink>
-      <NavLink to="/products">products</NavLink>
 
       {user ? (
         <>
           <NavLink to="/admin/create-product">Create Product</NavLink>
-          <button onClick={logoutHandler}>Logout</button>
+          <NavLink to="/admin/user-profile">Settings</NavLink>
+          {/*  <button onClick={logoutHandler}>Logout</button> */}
         </>
       ) : (
         <>
