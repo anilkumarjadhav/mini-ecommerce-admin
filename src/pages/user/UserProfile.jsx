@@ -1,7 +1,11 @@
 import { useForm } from "react-hook-form";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { asyncUpdateUser } from "../../store/actions/userActions";
+import {
+  asyncDeleteUser,
+  asyncLogoutUser,
+  asyncUpdateUser,
+} from "../../store/actions/userActions";
 
 const UserProfile = () => {
   const { users } = useSelector((state) => state.userReducer);
@@ -20,7 +24,15 @@ const UserProfile = () => {
     dispatch(asyncUpdateUser(users.id, user));
   };
 
-  const deleteHandler = () => {};
+  const logoutUserHandler = () => {
+    dispatch(asyncLogoutUser());
+    navigate("/login");
+  };
+
+  const deleteHandler = () => {
+    dispatch(asyncDeleteUser(users.id));
+    navigate("/login");
+  };
   return users ? (
     <div>
       <form
@@ -58,6 +70,14 @@ const UserProfile = () => {
           className="mt-5 px-4 py-2 bg-red-400 rounded"
         >
           Delete User
+        </button>
+
+        <button
+          type="button"
+          onClick={logoutUserHandler}
+          className="mt-5 px-4 py-2 bg-black rounded"
+        >
+          Logout
         </button>
       </form>
     </div>
