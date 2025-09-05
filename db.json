@@ -4,8 +4,15 @@
       "id": "0zznCpv_aRMNtpUS8W7kr",
       "username": "admin.master",
       "email": "admin@master.com",
-      "password": "321",
+      "password": "123",
       "isAdmin": true
+    },
+    {
+      "id": "CtDOalcaK0fhYEiFo1T0z",
+      "username": "lakshay.boss",
+      "email": "lakshay@gmail.com",
+      "password": "asd",
+      "isAdmin": false
     }
   ],
   "products": [

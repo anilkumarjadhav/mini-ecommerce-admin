@@ -14,7 +14,9 @@ const Nav = () => {
 
       {user ? (
         <>
-          <NavLink to="/admin/create-product">Create Product</NavLink>
+          {user && user.isAdmin && (
+            <NavLink to="/admin/create-product">Create Product</NavLink>
+          )}
           <NavLink to="/admin/user-profile">Settings</NavLink>
           {/*  <button onClick={logoutHandler}>Logout</button> */}
         </>

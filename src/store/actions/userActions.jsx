@@ -5,7 +5,6 @@ export const asyncCurrentUser = () => async (dispatch, getState) => {
   try {
     const user = JSON.parse(localStorage.getItem("user"));
     if (user) dispatch(loadUser(user));
-    else console.log("user not logged in!");
   } catch (error) {
     console.log(error);
   }
@@ -43,6 +42,7 @@ export const asyncUpdateUser = (id, user) => async (dispatch, getState) => {
   try {
     const { data } = await axios.patch("/users/" + id, user);
     localStorage.setItem("user", JSON.stringify(data));
+    dispatch(asyncCurrentUser());
   } catch (error) {
     console.log(error);
   }
