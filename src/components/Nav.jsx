@@ -17,7 +17,7 @@ const Nav = () => {
           {user && user.isAdmin && (
             <NavLink to="/admin/create-product">Create Product</NavLink>
           )}
-          <NavLink to="/admin/user-profile">Settings</NavLink>
+          <NavLink to="/user-profile">Settings</NavLink>
           <NavLink to="/cart">Cart</NavLink>
           {/*  <button onClick={logoutHandler}>Logout</button> */}
         </>
@@ -28,7 +28,6 @@ const Nav = () => {
       )}
 
       {/*  <NavLink to="/cart">cart</NavLink> */}
-
     </nav>
   );
 };

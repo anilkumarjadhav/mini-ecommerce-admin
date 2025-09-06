@@ -1,11 +1,36 @@
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { asyncUpdateUser } from "../store/actions/userActions";
+import { Suspense, useEffect, useState } from "react";
+import InfiniteScroll from "react-infinite-scroll-component";
+import axios from "../api/AxiosConfig";
 
 const Products = () => {
   const { users } = useSelector((state) => state.userReducer);
-  const { products } = useSelector((state) => state.productReducer);
+  //   const { products } = useSelector((state) => state.productReducer);
+  const [products, setProducts] = useState([]);
+  const [hasMore, setHasMore] = useState(true);
   const dispatch = useDispatch();
+
+  const fetchProducts = async () => {
+    try {
+      const { data } = await axios.get(
+        `/products?_limit=8&_start=${products.length}`
+      );
+      if (data.length == 0) {
+        setHasMore(false);
+      } else {
+        setHasMore(true);
+        setProducts([...products, ...data]);
+      }
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  useEffect(() => {
+    fetchProducts();
+  }, []);
 
   const addToCartHandler = (product) => {
     const copyUser = structuredClone(users);
@@ -46,10 +71,32 @@ const Products = () => {
     );
   });
 
-  return products.length > 0 ? (
-    <div className="w-full  flex flex-wrap">{renderProducts}</div>
-  ) : (
-    "Loading..."
+  return (
+    <div>
+      <InfiniteScroll
+        dataLength={products.length}
+        next={fetchProducts}
+        hasMore={hasMore}
+        loader={<h4>Loading...</h4>}
+        endMessage={
+          <p style={{ textAlign: "center" }}>
+            <b>Yay! You have seen it all</b>
+          </p>
+        }
+      >
+        <div className="flex flex-row flex-wrap gap-5">
+          <Suspense
+            fallback={
+              <h1 className="text-center text-5xl text-yellow-500">
+                LOADING RE BABA...
+              </h1>
+            }
+          >
+            {renderProducts}
+          </Suspense>
+        </div>
+      </InfiniteScroll>
+    </div>
   );
 };
 

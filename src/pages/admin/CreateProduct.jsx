@@ -11,7 +11,6 @@ const CreateProduct = () => {
 
   const createProductHandler = (product) => {
     product.id = nanoid();
-    console.log(product);
     dispatch(asyncCreateProduct(product));
     navigate("/products");
   };

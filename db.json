@@ -33,6 +33,329 @@
       "price": "1",
       "description": "wd",
       "category": "electronics"
-    }
+    },
+
+    {
+      "id": "1",
+      "image": "https://m.media-amazon.com/images/I/61-r9zOKBCL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "Samsung Galaxy S23 Ultra",
+      "price": "1100",
+      "description": "High-end smartphone with Snapdragon 8 Gen 2 processor and 200MP camera",
+      "category": "electronics"
+    },
+    {
+      "id": "2",
+      "image": "https://m.media-amazon.com/images/I/61d8iYbZpVL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "Dell XPS 13 Laptop",
+      "price": "1500",
+      "description": "Premium ultrabook with Intel i7, 16GB RAM, and stunning display",
+      "category": "electronics"
+    },
+    {
+      "id": "3",
+      "image": "https://m.media-amazon.com/images/I/71NIp7pQzAL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "Sony WH-1000XM5 Headphones",
+      "price": "400",
+      "description": "Noise-canceling wireless headphones with 30 hours of battery life",
+      "category": "electronics"
+    },
+    {
+      "id": "4",
+      "image": "https://m.media-amazon.com/images/I/71UDgdZB2JL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "Nike Air Force 1",
+      "price": "120",
+      "description": "Classic white sneakers with premium leather design",
+      "category": "fashion"
+    },
+    {
+      "id": "5",
+      "image": "https://m.media-amazon.com/images/I/71sOqv0EdEL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "Adidas Ultraboost 22",
+      "price": "180",
+      "description": "Running shoes with Boost cushioning and lightweight knit upper",
+      "category": "fashion"
+    },
+    {
+      "id": "6",
+      "image": "https://m.media-amazon.com/images/I/81keK7f4GcL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "Apple MacBook Pro 16",
+      "price": "2500",
+      "description": "M2 Pro chip, 16GB RAM, and Liquid Retina XDR display",
+      "category": "electronics"
+    },
+    {
+      "id": "7",
+      "image": "https://m.media-amazon.com/images/I/81vDZyJQ-4L._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "Canon EOS R6 Camera",
+      "price": "2000",
+      "description": "Full-frame mirrorless camera with 20MP sensor and 4K recording",
+      "category": "electronics"
+    },
+    {
+      "id": "8",
+      "image": "https://m.media-amazon.com/images/I/61f8bC4FsGL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "Levi's 511 Slim Jeans",
+      "price": "60",
+      "description": "Comfortable slim-fit denim jeans with stretch fabric",
+      "category": "fashion"
+    },
+    {
+      "id": "9",
+      "image": "https://m.media-amazon.com/images/I/61Um4Rt3XfL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "Apple Watch Series 8",
+      "price": "450",
+      "description": "Smartwatch with ECG, fitness tracking, and Always-On display",
+      "category": "electronics"
+    },
+    {
+      "id": "10",
+      "image": "https://m.media-amazon.com/images/I/71E+vYc5xDL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "Gucci Leather Wallet",
+      "price": "300",
+      "description": "Luxury men’s wallet made of genuine Italian leather",
+      "category": "fashion"
+    },
+    {
+      "id": "11",
+      "image": "https://m.media-amazon.com/images/I/81UT07JsjkL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "Sony PlayStation 5",
+      "price": "600",
+      "description": "Next-gen gaming console with 4K support and ultra-fast SSD",
+      "category": "electronics"
+    },
+    {
+      "id": "12",
+      "image": "https://m.media-amazon.com/images/I/81fRA+EexJL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "Apple iPad Pro 12.9",
+      "price": "1200",
+      "description": "M2 chip, Liquid Retina XDR display, and Apple Pencil support",
+      "category": "electronics"
+    },
+    {
+      "id": "13",
+      "image": "https://m.media-amazon.com/images/I/71lVwl3q-kL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "Ray-Ban Aviator Sunglasses",
+      "price": "150",
+      "description": "Iconic aviator sunglasses with polarized lenses",
+      "category": "fashion"
+    },
+    {
+      "id": "14",
+      "image": "https://m.media-amazon.com/images/I/61f88pknv5L._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "HP Envy 15 Laptop",
+      "price": "1400",
+      "description": "High-performance laptop with Intel i7 and NVIDIA graphics",
+      "category": "electronics"
+    },
+    {
+      "id": "15",
+      "image": "https://m.media-amazon.com/images/I/71QW5T3v2wL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "Puma Sports Jacket",
+      "price": "90",
+      "description": "Lightweight jacket for workouts and casual wear",
+      "category": "fashion"
+    },
+    {
+      "id": "16",
+      "image": "https://m.media-amazon.com/images/I/71o4z6cAp5L._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "LG OLED CX 55 TV",
+      "price": "1700",
+      "description": "4K OLED Smart TV with Dolby Vision and AI sound",
+      "category": "electronics"
+    },
+    {
+      "id": "17",
+      "image": "https://m.media-amazon.com/images/I/71QpLelK+eL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "Apple AirPods Pro 2",
+      "price": "250",
+      "description": "Wireless earbuds with Active Noise Cancellation and Spatial Audio",
+      "category": "electronics"
+    },
+    {
+      "id": "18",
+      "image": "https://m.media-amazon.com/images/I/61qA8x30ZzL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "Tommy Hilfiger T-Shirt",
+      "price": "40",
+      "description": "Premium cotton T-shirt with logo print",
+      "category": "fashion"
+    },
+    {
+      "id": "19",
+      "image": "https://m.media-amazon.com/images/I/71ZDY57yTQL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "Apple iPhone 13",
+      "price": "900",
+      "description": "A15 Bionic chip with dual-camera system and sleek design",
+      "category": "electronics"
+    },
+    {
+      "id": "20",
+      "image": "https://m.media-amazon.com/images/I/71lqqtER1mL._AC_UL480_FMwebp_QL65_.jpg",
+      "title": "Casio G-Shock Watch",
+      "price": "180",
+      "description": "Durable sports watch with water resistance and shock protection",
+      "category": "fashion"
+    },
+    [
+      {
+        "id": "1",
+        "image": "https://m.media-amazon.com/images/I/61-r9zOKBCL._AC_UL480_FMwebp_QL65_.jpg",
+        "title": "Samsung Galaxy S23 Ultra",
+        "price": "1100",
+        "description": "High-end smartphone with Snapdragon 8 Gen 2 processor and 200MP camera",
+        "category": "electronics"
+      },
+      {
+        "id": "2",
+        "image": "https://m.media-amazon.com/images/I/61d8iYbZpVL._AC_UL480_FMwebp_QL65_.jpg",
+        "title": "Dell XPS 13 Laptop",
+        "price": "1500",
+        "description": "Premium ultrabook with Intel i7, 16GB RAM, and stunning display",
+        "category": "electronics"
+      },
+      {
+        "id": "3",
+        "image": "https://m.media-amazon.com/images/I/71NIp7pQzAL._AC_UL480_FMwebp_QL65_.jpg",
+        "title": "Sony WH-1000XM5 Headphones",
+        "price": "400",
+        "description": "Noise-canceling wireless headphones with 30 hours of battery life",
+        "category": "electronics"
+      },
+      {
+        "id": "4",
+        "image": "https://m.media-amazon.com/images/I/71UDgdZB2JL._AC_UL480_FMwebp_QL65_.jpg",
+        "title": "Nike Air Force 1",
+        "price": "120",
+        "description": "Classic white sneakers with premium leather design",
+        "category": "fashion"
+      },
+      {
+        "id": "5",
+        "image": "https://m.media-amazon.com/images/I/71sOqv0EdEL._AC_UL480_FMwebp_QL65_.jpg",
+        "title": "Adidas Ultraboost 22",
+        "price": "180",
+        "description": "Running shoes with Boost cushioning and lightweight knit upper",
+        "category": "fashion"
+      },
+      {
+        "id": "6",
+        "image": "https://m.media-amazon.com/images/I/81keK7f4GcL._AC_UL480_FMwebp_QL65_.jpg",
+        "title": "Apple MacBook Pro 16",
+        "price": "2500",
+        "description": "M2 Pro chip, 16GB RAM, and Liquid Retina XDR display",
+        "category": "electronics"
+      },
+      {
+        "id": "7",
+        "image": "https://m.media-amazon.com/images/I/81vDZyJQ-4L._AC_UL480_FMwebp_QL65_.jpg",
+        "title": "Canon EOS R6 Camera",
+        "price": "2000",
+        "description": "Full-frame mirrorless camera with 20MP sensor and 4K recording",
+        "category": "electronics"
+      },
+      {
+        "id": "8",
+        "image": "https://m.media-amazon.com/images/I/61f8bC4FsGL._AC_UL480_FMwebp_QL65_.jpg",
+        "title": "Levi's 511 Slim Jeans",
+        "price": "60",
+        "description": "Comfortable slim-fit denim jeans with stretch fabric",
+        "category": "fashion"
+      },
+      {
+        "id": "9",
+        "image": "https://m.media-amazon.com/images/I/61Um4Rt3XfL._AC_UL480_FMwebp_QL65_.jpg",
+        "title": "Apple Watch Series 8",
+        "price": "450",
+        "description": "Smartwatch with ECG, fitness tracking, and Always-On display",
+        "category": "electronics"
+      },
+      {
+        "id": "10",
+        "image": "https://m.media-amazon.com/images/I/71E+vYc5xDL._AC_UL480_FMwebp_QL65_.jpg",
+        "title": "Gucci Leather Wallet",
+        "price": "300",
+        "description": "Luxury men’s wallet made of genuine Italian leather",
+        "category": "fashion"
+      },
+      {
+        "id": "11",
+        "image": "https://m.media-amazon.com/images/I/81UT07JsjkL._AC_UL480_FMwebp_QL65_.jpg",
+        "title": "Sony PlayStation 5",
+        "price": "600",
+        "description": "Next-gen gaming console with 4K support and ultra-fast SSD",
+        "category": "electronics"
+      },
+      {
+        "id": "12",
+        "image": "https://m.media-amazon.com/images/I/81fRA+EexJL._AC_UL480_FMwebp_QL65_.jpg",
+        "title": "Apple iPad Pro 12.9",
+        "price": "1200",
+        "description": "M2 chip, Liquid Retina XDR display, and Apple Pencil support",
+        "category": "electronics"
+      },
+      {
+        "id": "13",
+        "image": "https://m.media-amazon.com/images/I/71lVwl3q-kL._AC_UL480_FMwebp_QL65_.jpg",
+        "title": "Ray-Ban Aviator Sunglasses",
+        "price": "150",
+        "description": "Iconic aviator sunglasses with polarized lenses",
+        "category": "fashion"
+      },
+      {
+        "id": "14",
+        "image": "https://m.media-amazon.com/images/I/61f88pknv5L._AC_UL480_FMwebp_QL65_.jpg",
+        "title": "HP Envy 15 Laptop",
+        "price": "1400",
+        "description": "High-performance laptop with Intel i7 and NVIDIA graphics",
+        "category": "electronics"
+      },
+      {
+        "id": "15",
+        "image": "https://m.media-amazon.com/images/I/71QW5T3v2wL._AC_UL480_FMwebp_QL65_.jpg",
+        "title": "Puma Sports Jacket",
+        "price": "90",
+        "description": "Lightweight jacket for workouts and casual wear",
+        "category": "fashion"
+      },
+      {
+        "id": "16",
+        "image": "https://m.media-amazon.com/images/I/71o4z6cAp5L._AC_UL480_FMwebp_QL65_.jpg",
+        "title": "LG OLED CX 55 TV",
+        "price": "1700",
+        "description": "4K OLED Smart TV with Dolby Vision and AI sound",
+        "category": "electronics"
+      },
+      {
+        "id": "17",
+        "image": "https://m.media-amazon.com/images/I/71QpLelK+eL._AC_UL480_FMwebp_QL65_.jpg",
+        "title": "Apple AirPods Pro 2",
+        "price": "250",
+        "description": "Wireless earbuds with Active Noise Cancellation and Spatial Audio",
+        "category": "electronics"
+      },
+      {
+        "id": "18",
+        "image": "https://m.media-amazon.com/images/I/61qA8x30ZzL._AC_UL480_FMwebp_QL65_.jpg",
+        "title": "Tommy Hilfiger T-Shirt",
+        "price": "40",
+        "description": "Premium cotton T-shirt with logo print",
+        "category": "fashion"
+      },
+      {
+        "id": "19",
+        "image": "https://m.media-amazon.com/images/I/71ZDY57yTQL._AC_UL480_FMwebp_QL65_.jpg",
+        "title": "Apple iPhone 13",
+        "price": "900",
+        "description": "A15 Bionic chip with dual-camera system and sleek design",
+        "category": "electronics"
+      },
+      {
+        "id": "20",
+        "image": "https://m.media-amazon.com/images/I/71lqqtER1mL._AC_UL480_FMwebp_QL65_.jpg",
+        "title": "Casio G-Shock Watch",
+        "price": "180",
+        "description": "Durable sports watch with water resistance and shock protection",
+        "category": "fashion"
+      }
+    ]
   ]
 }

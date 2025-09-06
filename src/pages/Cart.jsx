@@ -54,7 +54,7 @@ const Cart = () => {
     );
   });
 
-  return <ul>{cartItems}</ul>;
+  return users.cart.length ? <ul>{cartItems}</ul> : "No Products In Cart!";
 };
 
 export default Cart;

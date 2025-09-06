@@ -25,6 +25,7 @@ export const asyncLoginUser = (user) => async (dispatch, getState) => {
       `/users?email=${user.email}&password=${user.password}`
     );
     localStorage.setItem("user", JSON.stringify(data[0]));
+    dispatch(asyncCurrentUser());
   } catch (error) {
     console.log(error);
   }
