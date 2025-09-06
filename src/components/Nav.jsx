@@ -18,6 +18,7 @@ const Nav = () => {
             <NavLink to="/admin/create-product">Create Product</NavLink>
           )}
           <NavLink to="/admin/user-profile">Settings</NavLink>
+          <NavLink to="/cart">Cart</NavLink>
           {/*  <button onClick={logoutHandler}>Logout</button> */}
         </>
       ) : (
@@ -28,8 +29,6 @@ const Nav = () => {
 
       {/*  <NavLink to="/cart">cart</NavLink> */}
 
-      {/*   <NavLink to="/admin/update-product/:id">Update Product</NavLink>
-      <NavLink to="/admin/delete-product/:id">Delete Product</NavLink> */}
     </nav>
   );
 };

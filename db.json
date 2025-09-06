@@ -5,14 +5,16 @@
       "username": "admin.master",
       "email": "admin@master.com",
       "password": "123",
-      "isAdmin": true
+      "isAdmin": true,
+      "cart": []
     },
     {
       "id": "CtDOalcaK0fhYEiFo1T0z",
       "username": "lakshay.boss",
       "email": "lakshay@gmail.com",
       "password": "asd",
-      "isAdmin": false
+      "isAdmin": false,
+      "cart": []
     }
   ],
   "products": [
@@ -32,6 +34,5 @@
       "description": "wd",
       "category": "electronics"
     }
-  ],
-  "carts": []
+  ]
 }
